@@ -32,6 +32,7 @@
       <button type="submit" class="btn btn-primary" value="Register">
         Submit
       </button>
+
       <p>
         Already have an Account?
         <router-link to="/login" class="link">Login Here</router-link>
