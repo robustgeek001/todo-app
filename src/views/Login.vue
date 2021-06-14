@@ -24,6 +24,9 @@
       <button type="submit" class="btn btn-primary" value="Login">
         Submit
       </button>
+      <p class="forgot-password">
+        <router-link to="/forgot">Forgot Password?</router-link>
+      </p>
       <p>
         Need an Account?
         <router-link to="/register" class="link">Register Here</router-link>
