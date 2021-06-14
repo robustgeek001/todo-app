@@ -1,5 +1,5 @@
 <template>
-  <div class="login">
+  <div class="login" v-cloak>
     <h1>Login</h1>
     <form @submit.prevent="Login">
       <div class="mb-3">
@@ -72,6 +72,9 @@ h1 {
 }
 .login button {
   margin: 30px auto;
+}
+[v-cloak] {
+  display: none;
 }
 input {
   max-width: 390px;

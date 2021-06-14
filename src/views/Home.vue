@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" v-cloak>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
         <nav class="navbar navbar-dark bg-dark">
@@ -79,5 +79,8 @@ h5 {
   text-decoration: none;
   color: white !important;
   margin-left: 5px;
+}
+[v-cloak] {
+  display: none;
 }
 </style>

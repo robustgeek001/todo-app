@@ -1,5 +1,5 @@
 <template>
-  <div class="register">
+  <div class="register" v-cloak>
     <h1>Register</h1>
     <form @submit.prevent="Register">
       <div class="mb-3">
@@ -67,6 +67,9 @@ h1 {
 }
 .register {
   margin-top: 220px;
+}
+[v-cloak] {
+  display: none;
 }
 .register input {
   width: 100%;
